@@ -36,7 +36,7 @@
   };
   macro_kinesis: macro_7 {
     compatible = "zmk,behavior-macro";
-    label = "macro_kinesis";
+    label = "macro_7";
     #binding-cells = <0>;
     bindings = <&kp 7 &kp 2 &kp 1 &kp 9 &kp 9 &kp 5>;
   };
