@@ -50,11 +50,11 @@
 
         layer_Layer4 {
             bindings = <
- &trans  &trans  &trans  &trans  &trans  &trans            &trans                                                         &trans  &trans  &trans  &trans  &trans  &trans  &trans
- &trans  &trans  &trans  &trans  &trans  &trans            &trans                                                         &trans  &trans  &trans  &trans  &trans  &trans  &trans
- &trans  &trans  &trans  &trans  &trans  &trans            &trans  &trans  &trans                  &trans  &kp BACKSPACE  &trans  &trans  &trans  &trans  &trans  &trans  &trans
- &trans  &trans  &trans  &trans  &trans  &trans                            &trans                  &trans                         &trans  &trans  &trans  &trans  &trans  &trans
- &trans  &trans  &trans  &trans  &trans                    &trans  &trans  &trans                  &trans         &trans  &trans          &trans  &trans  &trans  &trans  &trans
+ &trans  &trans  &trans  &trans    &trans  &trans            &trans                                                         &trans  &trans  &trans  &trans  &trans  &trans  &trans
+ &trans  &trans  &trans  &trans    &trans  &trans            &trans                                                         &trans  &trans  &trans  &trans  &trans  &trans  &trans
+ &trans  &trans  &trans  &trans    &trans  &trans            &trans  &trans  &trans                  &kp BACKSPACE  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+ &trans  &trans  &trans  &trans    &trans  &trans                            &trans                         &trans                  &trans  &trans  &trans  &trans  &trans  &trans
+ &trans  &trans  &trans  &trans  &kp LWIN                    &trans  &trans  &trans                         &trans  &trans  &trans          &trans  &trans  &trans  &trans  &trans
             >;
         };
 
