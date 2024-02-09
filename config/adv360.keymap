@@ -120,7 +120,17 @@
 
         layer_Layer__8 {
             bindings = <
- &trans  &trans  &trans  &trans  &trans  &trans             &to 0                                                  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+ &trans  &trans  &trans  &trans        &trans  &trans                &to 0                                                            &trans  &trans  &trans  &trans  &trans  &trans  &trans
+ &trans  &trans  &trans  &trans        &trans  &trans               &trans                                                            &trans  &trans  &trans  &trans  &trans  &trans  &trans
+ &trans  &trans  &trans  &trans        &trans  &trans               &trans  &trans  &trans                      &kp PG_UP  &kp PG_DN  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+ &trans  &trans  &trans  &trans        &trans  &trans                               &trans                  &kp BACKSPACE                     &trans  &trans  &trans  &trans  &trans  &trans
+ &trans  &trans  &trans  &trans  &kp LEFT_WIN                    &kp SPACE  &trans  &trans                      &kp RCTRL     &trans  &trans          &trans  &trans  &trans  &trans  &trans
+            >;
+        };
+
+        layer_Layer__9 {
+            bindings = <
+ &trans  &trans  &trans  &trans  &trans  &trans            &trans                                                  &trans  &trans  &trans  &trans  &trans  &trans  &trans
  &trans  &trans  &trans  &trans  &trans  &trans            &trans                                                  &trans  &trans  &trans  &trans  &trans  &trans  &trans
  &trans  &trans  &trans  &trans  &trans  &trans            &trans  &trans  &trans                  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
  &trans  &trans  &trans  &trans  &trans  &trans                            &trans                  &trans                  &trans  &trans  &trans  &trans  &trans  &trans
