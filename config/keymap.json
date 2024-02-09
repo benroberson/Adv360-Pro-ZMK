@@ -4,29 +4,30 @@
   "layout": "LAYOUT",
   "layer_names": [
     "base",
-    "Layer2",
+    "Layer #1",
     "fn",
     "mod",
     "Layer #4",
     "Layer #5",
     "Layer #6",
-    "Layer #7"
+    "Layer #7",
+    "Layer #8"
   ],
   "layers": [
     [
-         "&kp ESC",    "&kp N1",   "&kp N2",   "&kp N3",    "&kp N4", "&kp N5",                  "&tog 1",                                                                                "&mo 3", "&kp N6",   "&kp N7",   "&kp N8",    "&kp N9",     "&kp N0", "&kp MINUS",
+         "&kp ESC",    "&kp N1",   "&kp N2",   "&kp N3",    "&kp N4", "&kp N5",                   "&to 1",                                                                                "&mo 3", "&kp N6",   "&kp N7",   "&kp N8",    "&kp N9",     "&kp N0", "&kp MINUS",
          "&kp TAB",     "&kp Q",    "&kp W",    "&kp E",     "&kp R",  "&kp T",              "&kp LA(F4)",                                                                        "&kp LA(RIGHT)",  "&kp Y",    "&kp U",    "&kp I",     "&kp O",      "&kp P", "&kp EQUAL",
         "&kp BSLH",     "&kp A",    "&kp S",    "&kp D",     "&kp F",  "&kp G",               "&kp LC(W)", "&kp LCTRL", "&kp LALT",                      "&kp LGUI", "&kp RCTRL",  "&kp LA(LEFT)",  "&kp H",    "&kp J",    "&kp K",     "&kp L",   "&kp SEMI",   "&kp SQT",
        "&kp LSHFT",     "&kp Z",    "&kp X",    "&kp C",     "&kp V",  "&kp B",                                         "&kp HOME",                     "&kp PG_UP",                                "&kp N",    "&kp M",   "&kp UP", "&kp COMMA", "&kp PERIOD", "&kp RSHFT",
         "&kp CAPS", "&kp GRAVE", "&kp LBKT", "&kp RBKT", "&kp SPACE",                     "&kp BACKSPACE",   "&kp DEL",  "&kp END",                     "&kp PG_DN", "&kp ENTER",     "&kp SPACE",           "&kp LEFT", "&kp DOWN", "&kp RIGHT",  "&kp SLASH",     "&mo 2"
     ], [
-       "&trans", "&trans", "&trans", "&trans",   "&trans", "&trans",           "&trans",                                                                           "&trans", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans",
+       "&trans", "&trans", "&trans", "&trans",   "&trans", "&trans",            "&to 4",                                                                           "&trans", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans",
        "&trans", "&trans", "&trans", "&trans",   "&trans", "&trans",           "&trans",                                                                           "&trans", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans",
        "&trans", "&trans", "&trans", "&trans",   "&trans", "&trans",           "&trans", "&trans", "&trans",                     "&kp BACKSPACE", "&kp BACKSPACE", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans",
        "&trans", "&trans", "&trans", "&trans",   "&trans", "&trans",                               "&trans",                            "&trans",                            "&trans", "&trans", "&trans", "&trans", "&trans", "&trans",
        "&trans", "&trans", "&trans", "&trans", "&kp LWIN",                     "&trans", "&trans", "&trans",                            "&trans",        "&trans", "&trans",           "&trans", "&trans", "&trans", "&trans", "&trans"
     ], [
-       "&kp F1", "&kp F2", "&kp F3", "&kp F4", "&kp F5", "&kp F6",           "&tog 1",                                                              "&mo 3", "&kp F7", "&kp F8", "&kp F9", "&kp F10", "&kp F11", "&kp F12",
+       "&kp F1", "&kp F2", "&kp F3", "&kp F4", "&kp F5", "&kp F6",            "&to 0",                                                              "&mo 3", "&kp F7", "&kp F8", "&kp F9", "&kp F10", "&kp F11", "&kp F12",
        "&trans", "&trans", "&trans", "&trans", "&trans", "&trans",           "&tog 4",                                                             "&tog 6", "&trans", "&trans", "&trans",  "&trans",  "&trans",  "&trans",
        "&trans", "&trans", "&trans", "&trans", "&trans", "&trans",           "&tog 5", "&trans", "&trans",                     "&trans", "&trans", "&tog 7", "&trans", "&trans", "&trans",  "&trans",  "&trans",  "&trans",
        "&trans", "&trans", "&trans", "&trans", "&trans", "&trans",                               "&trans",                     "&trans",                     "&trans", "&trans", "&trans",  "&trans",  "&trans",  "&trans",
@@ -38,29 +39,35 @@
         "&none",          "&none",        "&none",        "&none",   "&macro_ver",        "&none",                                     "&none",                          "&none",                                              "&none",         "&none",      "&none",  "&none",  "&none",  "&none",
         "&none",          "&none",        "&none",        "&none",        "&none",                                 "&none",  "&none",  "&none",                          "&none", "&bl BL_TOG",        "&rgb_ug RGB_TOG",                  "&bl BL_INC", "&bl BL_DEC",  "&none",  "&none",  "&none"
     ], [
-       "&trans", "&trans", "&trans", "&trans",       "&trans", "&trans",           "&trans",                                                                    "&trans", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans",
+       "&trans", "&trans", "&trans", "&trans",       "&trans", "&trans",            "&to 5",                                                                    "&trans", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans",
        "&trans", "&trans", "&trans", "&trans",       "&trans", "&trans",           "&trans",                                                                    "&trans", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans",
        "&trans", "&trans", "&trans", "&trans",       "&trans", "&trans",           "&trans", "&trans", "&trans",                     "&kp BACKSPACE", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans",
        "&trans", "&trans", "&trans", "&trans",       "&trans", "&trans",                               "&trans",                            "&trans",                     "&trans", "&trans", "&trans", "&trans", "&trans", "&trans",
        "&trans", "&trans", "&trans", "&trans", "&kp LEFT_WIN",                     "&trans", "&trans", "&trans",                            "&trans", "&trans", "&trans",           "&trans", "&trans", "&trans", "&trans", "&trans"
     ], [
-       "&trans", "&trans", "&trans", "&trans",       "&trans", "&trans",           "&trans",                                                                       "&trans", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans",
+       "&trans", "&trans", "&trans", "&trans",       "&trans", "&trans",            "&to 6",                                                                       "&trans", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans",
        "&trans", "&trans", "&trans", "&trans",       "&trans", "&trans",           "&trans",                                                                       "&trans", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans",
        "&trans", "&trans", "&trans", "&trans",       "&trans", "&trans",           "&trans", "&trans", "&trans",                     "&kp RCTRL", "&kp BACKSPACE", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans",
        "&trans", "&trans", "&trans", "&trans",       "&trans", "&trans",                               "&trans",                        "&trans",                            "&trans", "&trans", "&trans", "&trans", "&trans", "&trans",
        "&trans", "&trans", "&trans", "&trans", "&kp LEFT_WIN",                     "&trans", "&trans", "&trans",                        "&trans",        "&trans", "&trans",           "&trans", "&trans", "&trans", "&trans", "&trans"
     ], [
-       "&trans", "&trans", "&trans", "&trans",       "&trans", "&trans",              "&trans",                                                                       "&trans", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans",
+       "&trans", "&trans", "&trans", "&trans",       "&trans", "&trans",               "&to 7",                                                                       "&trans", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans",
        "&trans", "&trans", "&trans", "&trans",       "&trans", "&trans",              "&trans",                                                                       "&trans", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans",
        "&trans", "&trans", "&trans", "&trans",       "&trans", "&trans",              "&trans", "&trans", "&trans",                     "&kp RCTRL", "&kp BACKSPACE", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans",
        "&trans", "&trans", "&trans", "&trans",       "&trans", "&trans",                                  "&trans",                        "&trans",                            "&trans", "&trans", "&trans", "&trans", "&trans", "&trans",
        "&trans", "&trans", "&trans", "&trans", "&kp LEFT_WIN",                     "&kp SPACE", "&trans", "&trans",                        "&trans",        "&trans", "&trans",           "&trans", "&trans", "&trans", "&trans", "&trans"
     ], [
+       "&trans", "&trans", "&trans", "&trans",       "&trans", "&trans",               "&to 8",                                                                       "&trans", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans",
        "&trans", "&trans", "&trans", "&trans",       "&trans", "&trans",              "&trans",                                                                       "&trans", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans",
-       "&trans", "&trans", "&trans", "&trans",       "&trans", "&trans",              "&trans",                                                                       "&trans", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans",
-       "&trans", "&trans", "&trans", "&trans",       "&trans", "&trans",              "&trans", "&trans", "&trans",                     "&kp RCTRL", "&kp BACKSPACE", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans",
-       "&trans", "&trans", "&trans", "&trans",       "&trans", "&trans",                                  "&trans",                        "&trans",                            "&trans", "&trans", "&trans", "&trans", "&trans", "&trans",
-       "&trans", "&trans", "&trans", "&trans", "&kp LEFT_WIN",                     "&kp SPACE", "&trans", "&trans",                        "&trans",        "&trans", "&trans",           "&trans", "&trans", "&trans", "&trans", "&trans"
+       "&trans", "&trans", "&trans", "&trans",       "&trans", "&trans",              "&trans", "&trans", "&trans",                         "&kp PG_UP", "&kp PG_DN", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans",
+       "&trans", "&trans", "&trans", "&trans",       "&trans", "&trans",                                  "&trans",                         "&kp RCTRL",                        "&trans", "&trans", "&trans", "&trans", "&trans", "&trans",
+       "&trans", "&trans", "&trans", "&trans", "&kp LEFT_WIN",                     "&kp SPACE", "&trans", "&trans",                     "&kp BACKSPACE",    "&trans", "&trans",           "&trans", "&trans", "&trans", "&trans", "&trans"
+    ], [
+       "&trans", "&trans", "&trans", "&trans", "&trans", "&trans",            "&to 0",                                                             "&trans", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans",
+       "&trans", "&trans", "&trans", "&trans", "&trans", "&trans",           "&trans",                                                             "&trans", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans",
+       "&trans", "&trans", "&trans", "&trans", "&trans", "&trans",           "&trans", "&trans", "&trans",                     "&trans", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans",
+       "&trans", "&trans", "&trans", "&trans", "&trans", "&trans",                               "&trans",                     "&trans",                     "&trans", "&trans", "&trans", "&trans", "&trans", "&trans",
+       "&trans", "&trans", "&trans", "&trans", "&trans",                     "&trans", "&trans", "&trans",                     "&trans", "&trans", "&trans",           "&trans", "&trans", "&trans", "&trans", "&trans"
     ]
   ]
 }
