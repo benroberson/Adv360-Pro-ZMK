@@ -48,13 +48,13 @@
             >;
         };
 
-        layer_Layer4 {
+        layer_Layer2 {
             bindings = <
- &trans  &trans  &trans  &trans    &trans  &trans            &trans                                                         &trans  &trans  &trans  &trans  &trans  &trans  &trans
- &trans  &trans  &trans  &trans    &trans  &trans            &trans                                                         &trans  &trans  &trans  &trans  &trans  &trans  &trans
- &trans  &trans  &trans  &trans    &trans  &trans            &trans  &trans  &trans                  &kp BACKSPACE  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
- &trans  &trans  &trans  &trans    &trans  &trans                            &trans                         &trans                  &trans  &trans  &trans  &trans  &trans  &trans
- &trans  &trans  &trans  &trans  &kp LWIN                    &trans  &trans  &trans                         &trans  &trans  &trans          &trans  &trans  &trans  &trans  &trans
+ &trans  &trans  &trans  &trans    &trans  &trans            &trans                                                                &trans  &trans  &trans  &trans  &trans  &trans  &trans
+ &trans  &trans  &trans  &trans    &trans  &trans            &trans                                                                &trans  &trans  &trans  &trans  &trans  &trans  &trans
+ &trans  &trans  &trans  &trans    &trans  &trans            &trans  &trans  &trans                  &kp BACKSPACE  &kp BACKSPACE  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+ &trans  &trans  &trans  &trans    &trans  &trans                            &trans                         &trans                         &trans  &trans  &trans  &trans  &trans  &trans
+ &trans  &trans  &trans  &trans  &kp LWIN                    &trans  &trans  &trans                         &trans         &trans  &trans          &trans  &trans  &trans  &trans  &trans
             >;
         };
 
@@ -62,7 +62,7 @@
             bindings = <
  &kp F1  &kp F2  &kp F3  &kp F4  &kp F5  &kp F6            &tog 1                                                   &mo 3  &kp F7  &kp F8  &kp F9  &kp F10  &kp F11  &kp F12
  &trans  &trans  &trans  &trans  &trans  &trans             &none                                                   &none  &trans  &trans  &trans   &trans   &trans   &trans
- &trans  &trans  &trans  &trans  &trans  &trans             &none  &trans  &trans                  &trans  &trans   &none  &trans  &trans  &trans   &trans   &trans   &trans
+ &trans  &trans  &trans  &trans  &trans  &trans            &tog 4  &trans  &trans                  &trans  &trans   &none  &trans  &trans  &trans   &trans   &trans   &trans
  &trans  &trans  &trans  &trans  &trans  &trans                            &trans                  &trans                  &trans  &trans  &trans   &trans   &trans   &trans
  &trans  &trans  &trans  &trans  &trans                    &trans  &trans  &trans                  &trans  &trans  &trans          &trans  &trans   &trans   &trans   &trans
             >;
@@ -75,6 +75,16 @@
   &none   &macro_simple         &none         &none         &none         &none                  &none   &none   &none                  &bt BT_CLR       &none  &rgb_ug RGB_MEFS_CMD 5       &none          &none       &none   &none   &none   &none
   &none           &none         &none         &none    &macro_ver         &none                                  &none                       &none                                           &none          &none       &none   &none   &none   &none
   &none           &none         &none         &none         &none                                &none   &none   &none                       &none  &bl BL_TOG         &rgb_ug RGB_TOG                 &bl BL_INC  &bl BL_DEC   &none   &none   &none
+            >;
+        };
+
+        layer_Layer4 {
+            bindings = <
+ &trans  &trans  &trans  &trans  &trans  &trans            &trans                                                  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+ &trans  &trans  &trans  &trans  &trans  &trans            &trans                                                  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+ &trans  &trans  &trans  &trans  &trans  &trans            &trans  &trans  &trans                  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+ &trans  &trans  &trans  &trans  &trans  &trans                            &trans                  &trans                  &trans  &trans  &trans  &trans  &trans  &trans
+ &trans  &trans  &trans  &trans  &trans                    &trans  &trans  &trans                  &trans  &trans  &trans          &trans  &trans  &trans  &trans  &trans
             >;
         };
 
