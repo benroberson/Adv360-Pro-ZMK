@@ -4,10 +4,10 @@
   "layout": "LAYOUT",
   "layer_names": [
     "base",
+    "Layer4",
     "keypad",
     "fn",
-    "mod",
-    "Layer4"
+    "mod"  
   ],
   "layers": [
     [
