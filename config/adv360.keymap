@@ -61,8 +61,8 @@
         layer_fn {
             bindings = <
  &kp F1  &kp F2  &kp F3  &kp F4  &kp F5  &kp F6             &to 0                                                   &mo 3  &kp F7  &kp F8  &kp F9  &kp F10  &kp F11  &kp F12
- &trans  &trans  &trans  &trans  &trans  &trans            &tog 4                                                  &tog 6  &trans  &trans  &trans   &trans   &trans   &trans
- &trans  &trans  &trans  &trans  &trans  &trans            &tog 5  &trans  &trans                  &trans  &trans  &tog 7  &trans  &trans  &trans   &trans   &trans   &trans
+ &trans  &trans  &trans  &trans  &trans  &trans             &to 8                                                   &to 8  &trans  &trans  &trans   &trans   &trans   &trans
+ &trans  &trans  &trans  &trans  &trans  &trans             &to 9  &trans  &trans                  &trans  &trans   &to 9  &trans  &trans  &trans   &trans   &trans   &trans
  &trans  &trans  &trans  &trans  &trans  &trans                            &trans                  &trans                  &trans  &trans  &trans   &trans   &trans   &trans
  &trans  &trans  &trans  &trans  &trans                    &trans  &trans  &trans                  &trans  &trans  &trans          &trans  &trans   &trans   &trans   &trans
             >;
@@ -130,11 +130,11 @@
 
         layer_Layer__9 {
             bindings = <
- &trans  &trans  &trans  &trans  &trans  &trans            &trans                                                  &trans  &trans  &trans  &trans  &trans  &trans  &trans
- &trans  &trans  &trans  &trans  &trans  &trans            &trans                                                  &trans  &trans  &trans  &trans  &trans  &trans  &trans
- &trans  &trans  &trans  &trans  &trans  &trans            &trans  &trans  &trans                  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
- &trans  &trans  &trans  &trans  &trans  &trans                            &trans                  &trans                  &trans  &trans  &trans  &trans  &trans  &trans
- &trans  &trans  &trans  &trans  &trans                    &trans  &trans  &trans                  &trans  &trans  &trans          &trans  &trans  &trans  &trans  &trans
+ &trans  &trans  &trans  &trans        &trans  &trans                &to 0                                                            &trans  &trans  &trans     &trans      &trans  &trans  &trans
+ &trans  &trans  &trans  &trans        &trans  &trans               &trans                                                            &trans  &trans  &trans     &trans      &trans  &trans  &trans
+ &trans  &trans  &trans  &trans        &trans  &trans               &trans  &trans  &trans                      &kp PG_UP  &kp PG_DN  &trans  &trans  &trans     &trans      &trans  &trans  &trans
+ &trans  &trans  &trans  &trans        &trans  &trans                               &trans                  &kp BACKSPACE                     &trans  &trans  &kp COMMA  &kp PERIOD  &kp UP  &trans
+ &trans  &trans  &trans  &trans  &kp LEFT_WIN                    &kp SPACE  &trans  &trans                      &kp RCTRL     &trans  &trans          &trans     &trans      &trans  &trans  &trans
             >;
         };
 
